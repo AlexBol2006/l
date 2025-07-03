@@ -1,19 +1,16 @@
 fileFormatVersion: 2
-guid: aa5b8455e3d7c714bbc355933dc0a8d4
+guid: 5fd3d5e76fce78d4f93b02d1a1bea392
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6991849013916550155
-    second: Death_0
+      213: -4449891260483480051
+    second: WALL SLIDEIz 1_0
   - first:
-      213: -276728812324164698
-    second: Death_1
+      213: 1196004024656793966
+    second: WALL SLIDEIz 1_1
   - first:
-      213: 3156895337291164288
-    second: Death_2
-  - first:
-      213: 1400002288684528572
-    second: Death_3
+      213: 3356475200940166647
+    second: WALL SLIDEIz 1_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -106,19 +103,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -135,89 +119,67 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Death_0
+      name: WALL SLIDEIz 1_0
       rect:
         serializedVersion: 2
-        x: 63
-        y: 48
-        width: 25
-        height: 39
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 32
+        y: 25
+        width: 23
+        height: 47
+      alignment: 9
+      pivot: {x: 0.18211381, y: 0.42764616}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b0449ad32a9080160800000000000000
-      internalID: 6991849013916550155
+      spriteID: d0654c1a97fce32c0800000000000000
+      internalID: -4449891260483480051
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Death_1
+      name: WALL SLIDEIz 1_1
       rect:
         serializedVersion: 2
-        x: 214
-        y: 48
-        width: 28
-        height: 39
+        x: 128
+        y: 25
+        width: 23
+        height: 45
       alignment: 9
-      pivot: {x: 0.54849243, y: 0.5024715}
+      pivot: {x: 0.13775702, y: 0.40931633}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6ab6d428c9cd82cf0800000000000000
-      internalID: -276728812324164698
+      spriteID: e611b9fd25f099010800000000000000
+      internalID: 1196004024656793966
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Death_2
+      name: WALL SLIDEIz 1_2
       rect:
         serializedVersion: 2
-        x: 368
-        y: 48
-        width: 25
-        height: 28
+        x: 224
+        y: 25
+        width: 23
+        height: 43
       alignment: 9
-      pivot: {x: 0.57949466, y: 0.7241091}
+      pivot: {x: 0.15254411, y: 0.44859502}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 08aa354559b8fcb20800000000000000
-      internalID: 3156895337291164288
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Death_3
-      rect:
-        serializedVersion: 2
-        x: 518
-        y: 48
-        width: 25
-        height: 29
-      alignment: 9
-      pivot: {x: 0.55430907, y: 0.7401981}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cb376cdf9aecd6310800000000000000
-      internalID: 1400002288684528572
+      spriteID: 7fd42717968949e20800000000000000
+      internalID: 3356475200940166647
       vertices: []
       indices: 
       edges: []
@@ -226,7 +188,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: fb2b05543f5920140adf5ee7fee7ac24
+    spriteID: e2d38ae8e4ce55542b90a8e52890bdd5
     internalID: 0
     vertices: []
     indices: 
@@ -236,10 +198,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Death_0: 6991849013916550155
-      Death_1: -276728812324164698
-      Death_2: 3156895337291164288
-      Death_3: 1400002288684528572
+      WALL SLIDEIz 1_0: -4449891260483480051
+      WALL SLIDEIz 1_1: 1196004024656793966
+      WALL SLIDEIz 1_2: 3356475200940166647
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

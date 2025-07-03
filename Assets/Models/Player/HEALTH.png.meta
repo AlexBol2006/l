@@ -1,37 +1,52 @@
 fileFormatVersion: 2
-guid: 0e5be51841a952e4d8b3b8eed6f6c1fc
+guid: c5d962fff3eaf8c4184591e678567ebd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 815424164945274260
-    second: IDLE_0
+      213: 8507892795353594101
+    second: HEALTH_0
   - first:
-      213: -270785710348516584
-    second: IDLE_1
+      213: -6934898217526789011
+    second: HEALTH_1
   - first:
-      213: 8443794771774750484
-    second: IDLE_2
+      213: -7376784255746488406
+    second: HEALTH_2
   - first:
-      213: 1777182293076053196
-    second: IDLE_3
+      213: 3778189985310914050
+    second: HEALTH_3
   - first:
-      213: 6114163804962241700
-    second: IDLE_4
+      213: 7275703052360333005
+    second: HEALTH_4
   - first:
-      213: -7154528564402915179
-    second: IDLE_5
+      213: -1233704782311573885
+    second: HEALTH_5
   - first:
-      213: -8112586356116296526
-    second: IDLE_6
+      213: 7395181691998300490
+    second: HEALTH_6
   - first:
-      213: 6124698253077029035
-    second: IDLE_7
+      213: -4283093454634866488
+    second: HEALTH_7
   - first:
-      213: 900705793506851975
-    second: IDLE_8
+      213: 1457975256879049474
+    second: HEALTH_8
   - first:
-      213: -705124532602476047
-    second: IDLE_9
+      213: -863782939380337688
+    second: HEALTH_9
+  - first:
+      213: 5951082650513434666
+    second: HEALTH_10
+  - first:
+      213: 3766965980138579257
+    second: HEALTH_11
+  - first:
+      213: 5186188700192323355
+    second: HEALTH_12
+  - first:
+      213: 4338865502500585266
+    second: HEALTH_13
+  - first:
+      213: 5016161926198740255
+    second: HEALTH_14
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -124,19 +139,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -153,221 +155,331 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: IDLE_0
+      name: HEALTH_0
       rect:
         serializedVersion: 2
         x: 36
-        y: 15
-        width: 20
-        height: 34
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 49525dc25f7f05b00800000000000000
-      internalID: 815424164945274260
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IDLE_1
-      rect:
-        serializedVersion: 2
-        x: 131
         y: 14
-        width: 23
-        height: 35
+        width: 21
+        height: 36
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 813cc64c4d9fd3cf0800000000000000
-      internalID: -270785710348516584
+      spriteID: 5f8f72eab6b121670800000000000000
+      internalID: 8507892795353594101
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IDLE_2
+      name: HEALTH_1
       rect:
         serializedVersion: 2
-        x: 227
+        x: 132
         y: 14
-        width: 23
-        height: 34
+        width: 26
+        height: 36
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 41f3fe79b926e2570800000000000000
-      internalID: 8443794771774750484
+      spriteID: d6c73d650da42cf90800000000000000
+      internalID: -6934898217526789011
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IDLE_3
+      name: HEALTH_2
       rect:
         serializedVersion: 2
-        x: 323
+        x: 228
         y: 14
-        width: 23
-        height: 33
+        width: 26
+        height: 36
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ccc89ef21e1d9a810800000000000000
-      internalID: 1777182293076053196
+      spriteID: aa74983adc560a990800000000000000
+      internalID: -7376784255746488406
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IDLE_4
+      name: HEALTH_3
       rect:
         serializedVersion: 2
-        x: 418
-        y: 14
-        width: 23
-        height: 34
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4ac335d169fd9d450800000000000000
-      internalID: 6114163804962241700
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IDLE_5
-      rect:
-        serializedVersion: 2
-        x: 513
-        y: 14
-        width: 24
-        height: 34
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 598f06f4d2206bc90800000000000000
-      internalID: -7154528564402915179
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IDLE_6
-      rect:
-        serializedVersion: 2
-        x: 609
-        y: 14
-        width: 24
-        height: 34
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2bce10201bd4a6f80800000000000000
-      internalID: -8112586356116296526
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IDLE_7
-      rect:
-        serializedVersion: 2
-        x: 705
-        y: 14
-        width: 24
-        height: 34
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ba0ac137c9c4ff450800000000000000
-      internalID: 6124698253077029035
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IDLE_8
-      rect:
-        serializedVersion: 2
-        x: 801
-        y: 14
-        width: 24
-        height: 34
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 78cbc15a523ff7c00800000000000000
-      internalID: 900705793506851975
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IDLE_9
-      rect:
-        serializedVersion: 2
-        x: 898
+        x: 324
         y: 14
         width: 23
         height: 36
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1f9e0d739f4e636f0800000000000000
-      internalID: -705124532602476047
+      spriteID: 206356026c3de6430800000000000000
+      internalID: 3778189985310914050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HEALTH_4
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 14
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc6b927b06d78f460800000000000000
+      internalID: 7275703052360333005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HEALTH_5
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 14
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3863e94790001eee0800000000000000
+      internalID: -1233704782311573885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HEALTH_6
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 14
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a49e7094196f0a660800000000000000
+      internalID: 7395181691998300490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HEALTH_7
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 14
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c820b022356f84c0800000000000000
+      internalID: -4283093454634866488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HEALTH_8
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 14
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20ba59d75c4cb3410800000000000000
+      internalID: 1457975256879049474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HEALTH_9
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 14
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e3313f3ef93304f0800000000000000
+      internalID: -863782939380337688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HEALTH_10
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 14
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a28e7d4f32e769250800000000000000
+      internalID: 5951082650513434666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HEALTH_11
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 14
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9352427c993f64430800000000000000
+      internalID: 3766965980138579257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HEALTH_12
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 14
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b17bb1d252b09f740800000000000000
+      internalID: 5186188700192323355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HEALTH_13
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 14
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23f7ebcaf2fb63c30800000000000000
+      internalID: 4338865502500585266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HEALTH_14
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 14
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f154ae2f1bcfc9540800000000000000
+      internalID: 5016161926198740255
       vertices: []
       indices: 
       edges: []
@@ -376,7 +488,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 7c14ab700b50abd4791bfbf3830f9608
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -384,20 +496,23 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceOnImport
-        value: True
+      entries: []
     nameFileIdTable:
-      IDLE_0: 815424164945274260
-      IDLE_1: -270785710348516584
-      IDLE_2: 8443794771774750484
-      IDLE_3: 1777182293076053196
-      IDLE_4: 6114163804962241700
-      IDLE_5: -7154528564402915179
-      IDLE_6: -8112586356116296526
-      IDLE_7: 6124698253077029035
-      IDLE_8: 900705793506851975
-      IDLE_9: -705124532602476047
+      HEALTH_0: 8507892795353594101
+      HEALTH_1: -6934898217526789011
+      HEALTH_10: 5951082650513434666
+      HEALTH_11: 3766965980138579257
+      HEALTH_12: 5186188700192323355
+      HEALTH_13: 4338865502500585266
+      HEALTH_14: 5016161926198740255
+      HEALTH_2: -7376784255746488406
+      HEALTH_3: 3778189985310914050
+      HEALTH_4: 7275703052360333005
+      HEALTH_5: -1233704782311573885
+      HEALTH_6: 7395181691998300490
+      HEALTH_7: -4283093454634866488
+      HEALTH_8: 1457975256879049474
+      HEALTH_9: -863782939380337688
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
